@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #0A0A0A;
+  --color-secondary: #121212;
+  --color-accent: #00E5FF;
+  --color-accent-purple: #7C3AED;
+  --font-orbitron: 'Orbitron', sans-serif;
+  --font-poppins: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: var(--color-primary);
+  color: white;
+  font-family: var(--font-poppins);
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6, .font-orbitron {
+  font-family: var(--font-orbitron);
+}
+
+.glass-card {
+  background: rgba(18, 18, 18, 0.6);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 1rem;
+}
+
+.text-gradient {
+  background: linear-gradient(to right, var(--color-accent), var(--color-accent-purple));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-gradient-glow {
+  background: radial-gradient(circle at center, rgba(0, 229, 255, 0.15) 0%, rgba(10, 10, 10, 1) 70%);
+}
+
+.glow-effect {
+  box-shadow: 0 0 20px rgba(0, 229, 255, 0.3);
+}
+
+.glow-effect:hover {
+  box-shadow: 0 0 30px rgba(0, 229, 255, 0.5);
+}
+
+html {
+  scroll-behavior: smooth;
+}
