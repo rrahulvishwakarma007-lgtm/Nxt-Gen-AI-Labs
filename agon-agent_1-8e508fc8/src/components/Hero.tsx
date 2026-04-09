@@ -81,8 +81,9 @@ export default function Hero({ onBookDemo }: { onBookDemo: () => void }) {
                 loop 
                 muted 
                 playsInline
-                controls={false}
-                className="rounded-3xl border border-white/10 shadow-2xl shadow-accent/20 object-cover w-full aspect-video glow-effect bg-black"
+                webkit-playsinline="true"
+                disablePictureInPicture
+                className="rounded-3xl border border-white/10 shadow-2xl shadow-accent/20 object-cover w-full aspect-video glow-effect bg-black pointer-events-none"
                 onContextMenu={(e) => e.preventDefault()}
               >
                 <source src="https://nxtgenailabs.work/wp-content/uploads/2026/04/designarena_video_faxh1akt.mp4" type="video/mp4" />
