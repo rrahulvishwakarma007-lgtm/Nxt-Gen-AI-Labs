@@ -73,22 +73,26 @@ export default function Hero({ onBookDemo }: { onBookDemo: () => void }) {
             <motion.div
               animate={{ y: [-15, 15, -15] }}
               transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
-              className="relative z-10 w-full"
+              className="relative z-10 w-full rounded-3xl overflow-hidden border border-white/10 shadow-2xl shadow-accent/20 glow-effect bg-black"
             >
-              <video 
-                src="https://nxtgenailabs.work/wp-content/uploads/2026/04/designarena_video_faxh1akt.mp4" 
-                autoPlay 
-                loop 
-                muted 
-                playsInline
-                webkit-playsinline="true"
-                disablePictureInPicture
-                className="rounded-3xl border border-white/10 shadow-2xl shadow-accent/20 object-cover w-full aspect-video glow-effect bg-black pointer-events-none"
-                onContextMenu={(e) => e.preventDefault()}
-              >
-                <source src="https://nxtgenailabs.work/wp-content/uploads/2026/04/designarena_video_faxh1akt.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
+              <div 
+                className="w-full aspect-video"
+                dangerouslySetInnerHTML={{
+                  __html: `
+                    <video 
+                      autoplay 
+                      loop 
+                      muted 
+                      playsinline 
+                      webkit-playsinline="true"
+                      x5-playsinline="true"
+                      class="object-cover w-full h-full pointer-events-none"
+                    >
+                      <source src="https://nxtgenailabs.work/wp-content/uploads/2026/04/designarena_video_faxh1akt.mp4" type="video/mp4" />
+                    </video>
+                  `
+                }}
+              />
             </motion.div>
 
             {/* Floating UI elements around robot */}
