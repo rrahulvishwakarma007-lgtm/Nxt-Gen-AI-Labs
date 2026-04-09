@@ -88,7 +88,7 @@ export default function Hero({ onBookDemo }: { onBookDemo: () => void }) {
                       x5-playsinline="true"
                       class="object-cover w-full h-full pointer-events-none"
                     >
-                      <source src="https://nxtgenailabs.work/wp-content/uploads/2026/04/designarena_video_faxh1akt.mp4" type="video/mp4" />
+                     <source src="/designarena_video_faxh1akt.mp4" type="video/mp4" />
                     </video>
                   `
                 }}
