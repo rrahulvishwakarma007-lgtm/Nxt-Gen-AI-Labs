@@ -12,42 +12,42 @@ export default function Portfolio() {
     {
       title: "Shekhar Raja Jewellers",
       category: "E-Commerce & Automation",
-      image: "https://nxtgenailabs.work/wp-content/uploads/2026/02/Screenshot_2026-02-19-17-01-21-549_com.android.chrome.jpg",
+      image: "/Screenshot_2026-02-19-17-01-21-549_com.android.chrome-461x1024.jpg",
       desc: "Complete digital transformation with an automated e-commerce suite, inventory sync, and AI-driven customer follow-ups.",
       tags: ["Web Design", "E-Commerce", "AI Follow-up"]
     },
     {
       title: "Urban Rituals Store",
       category: "Digital Storefront",
-      image: "https://nxtgenailabs.work/wp-content/uploads/2026/02/Screenshot_19-2-2026_163440_urbnritual.store_.jpeg",
+      image: "/Screenshot_19-2-2026_163440_urbnritual.store_-850x1024.jpeg",
       desc: "Modern, high-converting lifestyle brand website with integrated delivery logistics and automated WhatsApp order tracking.",
       tags: ["UI/UX", "Logistics", "WhatsApp API"]
     },
     {
       title: "Confidential Clinic App",
       category: "Healthcare EMR",
-      image: "https://nxtgenailabs.work/wp-content/uploads/2026/02/Screenshot_19-2-2026_165550_creatorapp.zoho_.in_.jpeg",
+      image: "/Screenshot_19-2-2026_165550_creatorapp.zoho_.in_-1024x521.jpeg",
       desc: "Custom Electronic Medical Records (EMR) application streamlining patient data, prescriptions, and appointment scheduling.",
       tags: ["Healthcare", "Mobile App", "Security"]
     },
     {
       title: "Business Automation Setup",
       category: "Workflow AI",
-      image: "https://nxtgenailabs.work/wp-content/uploads/2026/02/Screenshot_19-2-2026_165051_creatorapp.zoho_.in_.jpeg",
+      image: "/Screenshot_19-2-2026_165051_creatorapp.zoho_.in_-1024x490.jpeg",
       desc: "End-to-end business process automation eliminating manual data entry and accelerating client onboarding.",
       tags: ["Automation", "AI", "CRM"]
     },
     {
       title: "Jewellery Collection UI",
       category: "Mobile Commerce",
-      image: "https://nxtgenailabs.work/wp-content/uploads/2026/02/Screenshot_2026-02-19-17-01-42-057_com.android.chrome.jpg",
+      image: "/Screenshot_2026-02-19-17-01-42-057_com.android.chrome-461x1024.jpg",
       desc: "Optimized mobile shopping experience for high-end retail, featuring dynamic product filtering and smooth checkout.",
       tags: ["Mobile UI", "Retail", "Conversion"]
     },
     {
       title: "Urban Rituals Catalog",
       category: "Product Showcase",
-      image: "https://nxtgenailabs.work/wp-content/uploads/2026/02/Screenshot_19-2-2026_164613_urbnritual.store_.jpeg",
+      image: "/Screenshot_19-2-2026_164613_urbnritual.store_-695x1024.jpeg",
       desc: "Dynamic product catalog with real-time inventory synchronization and automated stock alerts.",
       tags: ["Catalog", "Inventory", "Sync"]
     }
@@ -127,7 +127,7 @@ export default function Portfolio() {
                   className="w-full h-full object-contain p-2 group-hover:scale-105 transition-all duration-700"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent pointer-events-none"></div>
-                <div className="absolute bottom-4 left-4">
+                <div className="absolute bottom-4 left-4 z-10">
                   <span className="px-3 py-1 bg-accent/20 text-accent text-xs font-bold rounded-full backdrop-blur-md border border-accent/20">
                     {project.category}
                   </span>
@@ -182,7 +182,7 @@ export default function Portfolio() {
             
             <div className="shrink-0 w-full lg:w-auto">
               <a 
-                href="https://nxtgenailabs.work/wp-content/uploads/2026/02/NxtGen_AI_Labs_Automation_Capabilities_Brochure.pdf" 
+                href="/NxtGen_AI_Labs_Automation_Capabilities_Brochure.pdf" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-full sm:w-auto px-8 py-4 bg-accent-purple text-white rounded-full font-bold flex items-center justify-center gap-2 hover:bg-white hover:text-black transition-all glow-effect group"
