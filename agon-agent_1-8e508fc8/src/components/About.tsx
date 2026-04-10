@@ -29,9 +29,9 @@ export default function About({ onBookDemo }: { onBookDemo?: () => void }) {
               <div className="absolute -inset-4 bg-gradient-to-tr from-accent/20 to-accent-purple/20 rounded-3xl blur-xl"></div>
               <div className="glass-card p-2 rounded-3xl relative">
                 <img 
-                  src="https://nxtgenailabs.work/wp-content/uploads/2026/01/IMG_20260101_154942.jpg" 
+                  src="/IMG_20260101_154942.jpg" 
                   alt="Rahul Vishwakarma - Founder & CEO" 
-                  className="rounded-[1.25rem] object-cover aspect-[4/5] w-full hover:scale-[1.02] transition-transform duration-500"
+                  className="rounded-[1.25rem] object-cover aspect-[4/5] w-full hover:scale-[1.02] transition-transform duration-500 bg-black/20"
                 />
                 <div className="absolute bottom-6 left-6 right-6 glass-card p-6 rounded-2xl border-white/10 backdrop-blur-md bg-black/80">
                   <h3 className="text-2xl font-bold font-orbitron mb-1">Rahul Vishwakarma</h3>
