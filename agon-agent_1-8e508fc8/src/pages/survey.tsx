@@ -190,7 +190,7 @@ export default function SurveyPage() {
                   <div style={{ fontSize: 11, color: "#FC8181", fontWeight: 700, marginTop: 3 }}>🔥 Limited campaign — slots filling fast</div>
                 </div>
                 <div style={{ display: "flex", flexDirection: "column", gap: 7 }}>
-                  {["6 Full Pages", "Mobile Ready", "WhatsApp Button", "Fast Delivery"].map(f => (
+                  {["6 Full Pages", "Mobile Ready", "WhatsApp Integration", "Fast Delivery"].map(f => (
                     <div key={f} style={{ display: "flex", alignItems: "center", gap: 7, fontSize: 12, color: "#C8D8F0" }}>
                       <span style={{ color: "#00C6FF", fontSize: 14, lineHeight: 1 }}>✓</span> {f}
                     </div>
@@ -221,7 +221,7 @@ export default function SurveyPage() {
             <p style={{ textAlign: "center", fontSize: 12, color: "#8899BB", marginTop: 10 }}>No payment · No commitment · 100% free to check eligibility</p>
 
             <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 18, marginTop: 18, flexWrap: "wrap" }}>
-              {["✅ Trusted in Jabalpur", "🏆 Made in Bhopal, For India", "⚡ Fast Delivery"].map(t => (
+              {["✅ Trusted in Jabalpur", "🏆 Made in Jabalpur, For India", "⚡ Fast Delivery"].map(t => (
                 <span key={t} style={{ fontSize: 11, color: "#8899BB" }}>{t}</span>
               ))}
             </div>
