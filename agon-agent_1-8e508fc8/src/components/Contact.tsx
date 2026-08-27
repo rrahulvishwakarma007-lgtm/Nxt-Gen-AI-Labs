@@ -44,7 +44,7 @@ export default function Contact({ onBookDemo }: { onBookDemo: () => void }) {
                     Jabalpur, Madhya Pradesh
                   </p>
                   <a 
-                    href="<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3667.4649086456807!2d79.9244938!3d23.1897219!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3981b1f166406769%3A0xf302d45ab128798a!2sNxt%20Gen%20AI%20Labs!5e0!3m2!1sen!2sin!4v1787833428431!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>" 
+                    href="https://maps.app.goo.gl/vyn38sJMNWekFzZ26" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 text-accent hover:text-white transition-colors text-sm font-bold uppercase tracking-wider"
