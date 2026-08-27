@@ -83,7 +83,7 @@ export default function Contact({ onBookDemo }: { onBookDemo: () => void }) {
                   <Clock size={20} />
                 </div>
                 <h3 className="font-bold mb-1">Working Hours</h3>
-                <p className="text-gray-400">Mon - Sat: 10 AM - 7 PM</p>
+                <p className="text-gray-400">Everyday: 09 AM - 11 PM</p>
               </motion.div>
             </div>
           </div>
