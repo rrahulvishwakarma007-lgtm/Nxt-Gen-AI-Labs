@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { MapPin, Phone, Mail, Clock, ArrowRight } from 'lucide-react';
+import { MapPin, Phone, Mail, Clock, ArrowRight, Instagram, Facebook } from 'lucide-react';
 
 export default function Contact({ onBookDemo }: { onBookDemo: () => void }) {
   return (
@@ -86,6 +86,48 @@ export default function Contact({ onBookDemo }: { onBookDemo: () => void }) {
                 <p className="text-gray-400">Everyday: 09 AM - 11 PM</p>
               </motion.div>
             </div>
+
+            {/* Social Links */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.3 }}
+              className="glass-card p-6 border-white/5 hover:border-white/20 transition-colors"
+            >
+              <h3 className="font-bold mb-4">Follow Us</h3>
+              <div className="flex gap-4">
+                <a
+                  href="https://www.instagram.com/nxtgenailabs/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-3 flex-1 px-4 py-3 rounded-xl bg-white/5 hover:bg-gradient-to-r hover:from-purple-500/20 hover:to-pink-500/20 border border-white/10 hover:border-pink-500/40 transition-all group"
+                >
+                  <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center shrink-0">
+                    <Instagram size={16} className="text-white" />
+                  </div>
+                  <div>
+                    <p className="text-sm font-semibold group-hover:text-pink-400 transition-colors">Instagram</p>
+                    <p className="text-xs text-gray-500">@nxtgenailabs</p>
+                  </div>
+                </a>
+
+                <a
+                  href="https://www.facebook.com/people/Nxt-Gen-AI-Labs/pfbid0hXA8JRPadFZGqkiB4ud92sCy2JJsdESGcm9Ki2fwvzSeTQ3fnxAxibBBYLSXhtHrl/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-3 flex-1 px-4 py-3 rounded-xl bg-white/5 hover:bg-blue-500/10 border border-white/10 hover:border-blue-500/40 transition-all group"
+                >
+                  <div className="w-8 h-8 rounded-lg bg-blue-600 flex items-center justify-center shrink-0">
+                    <Facebook size={16} className="text-white" />
+                  </div>
+                  <div>
+                    <p className="text-sm font-semibold group-hover:text-blue-400 transition-colors">Facebook</p>
+                    <p className="text-xs text-gray-500">Nxt Gen AI Labs</p>
+                  </div>
+                </a>
+              </div>
+            </motion.div>
           </div>
 
           {/* Action Card / Map Placeholder */}
